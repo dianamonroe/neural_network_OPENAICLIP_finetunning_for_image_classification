@@ -1,0 +1,8 @@
+flask
+gunicorn
+pillow
+python-dotenv
+torch
+torchvision
+transformers
+numpy

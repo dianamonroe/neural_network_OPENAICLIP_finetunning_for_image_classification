@@ -1,0 +1,143 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f4f5;
+  color: #18181b;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.image-and-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  margin: 0 auto 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 2px dashed #ccc;
+  transition: all 0.3s ease;
+}
+
+.image-container.highlight {
+  border-color: #22c55e;
+  background-color: #e6ffe6;
+}
+
+.image-container p {
+  text-align: center;
+  color: #666;
+}
+
+#currentImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.tagging-container {
+  width: 35%;
+  text-align: left;
+}
+
+.tagging-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+.action-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  border-radius: 9999px;
+  transition: background-color 0.3s, transform 0.1s;
+  touch-action: manipulation;
+}
+
+.action-button:hover {
+  transform: translateY(-1px);
+}
+
+.action-button:active {
+  transform: translateY(1px);
+}
+
+.yes {
+  background-color: #22c55e;
+  color: white;
+}
+
+.pastry {
+  background-color: #eab308;
+  color: #18181b;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    width: 100%;
+  }
+}
+
+  .image-and-buttons,
+  .tagging-container {
+    width: 100%;
+  }
+
+
