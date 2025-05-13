@@ -130,9 +130,9 @@ Although Yolo showed way better numerical metrics of than OPEN AI CLIP, **CLIP p
 ## **REQUEST ACCESS TO THE DATA PROCESSING AND TRAINING PROJECT REPOSITORIES:**
 You can request access to a bunch of repositories mainly done in Google Colab where the different phases of the project have been developed in the following Google Drive Folders:
 
-* 1. [Image Scrapping](https://drive.google.com/drive/folders/1w28M03pW-V66UihSKkf1pyW0xMzToP8E?usp=drive_link)
-* 2. [Data Preparation, Standardization, Augmentation & Refinement](https://drive.google.com/drive/folders/1ztH7bXBSfOYk5NEBFg91tBL2P8DUVCQw?usp=sharing)
-* 3. [Model Training, Evaluation & Deployment](https://drive.google.com/drive/folders/1eLGwQrhMVTj-36B4KAG4cDRBVylq2vQS?usp=drive_link)
-   * [Request acces to Yolo1 training rounds & evaluation](https://drive.google.com/drive/folders/1-yJXt_jNmqBSOIssn9llxW-f9pY-Rut_?usp=drive_link)
-   * [Request access to OPEN AI CLIP training rounds & evaluation](https://drive.google.com/file/d/1p9N38zwv3FTrn41g7O1fBrD4ZUZRVwMb/view?usp=drive_link)
+* [Image Scrapping](https://drive.google.com/drive/folders/1w28M03pW-V66UihSKkf1pyW0xMzToP8E?usp=drive_link)
+* [Data Preparation, Standardization, Augmentation & Refinement](https://drive.google.com/drive/folders/1ztH7bXBSfOYk5NEBFg91tBL2P8DUVCQw?usp=sharing)
+* [Model Training, Evaluation & Deployment](https://drive.google.com/drive/folders/1eLGwQrhMVTj-36B4KAG4cDRBVylq2vQS?usp=drive_link)
+* [Request acces to Yolo1 training rounds & evaluation](https://drive.google.com/drive/folders/1-yJXt_jNmqBSOIssn9llxW-f9pY-Rut_?usp=drive_link)
+* [Request access to OPEN AI CLIP training rounds & evaluation](https://drive.google.com/file/d/1p9N38zwv3FTrn41g7O1fBrD4ZUZRVwMb/view?usp=drive_link)
     
